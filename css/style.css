@@ -1,0 +1,7 @@
+/* ========== font-family =========== */
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=PT+Sans:wght@400;700&family=Quicksand:wght@300;500;700&display=swap");
+
+/* ========== Base CSS ========== */
+html {
+  scroll-behavior: smooth;
+}
