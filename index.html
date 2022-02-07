@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
@@ -21,25 +24,60 @@
         <h1 id="logo">Odin Recipes</h1>
         <i class="uil uil-restaurant header__icon"></i>
       </div>
-      <nav class="container">
-        
-      </nav>
     </header>
+
     <main class="main container">
       <section>
-        <article>
-          <ul>
-            <li>
-              <a href="./recipes/chicken.html"
-                >Lemon, Yogurt, and Dill Chicken Thighs with Roasted Veggies</a
-              >
-            </li>
-            <li>
-              <a href="./recipes/porchop.html">Slow Cooker French Onion Pork Chops</a>
-            </li>
-          </ul>
-            </body>
+        <article class="card">
+          <h2 class="main__article-title">
+            Lemon, Yogurt, and Dill Chicken Thighs with Roasted Veggies
+          </h2>
+
+          <div class="card__content">
+            <img
+              class="card__image"
+              src="./img/recipe.jpeg"
+              alt="Chicken Thighs with lemon, Yogurt and Dill"
+            />
+            <ul>
+              <li class="card__description"><span>Prep:</span> 20 mins</li>
+              <li class="card__description"><span>Cook:</span> 50 mins</li>
+              <li class="card__description">
+                <span>Total:</span> 1 hr 10 mins
+              </li>
+              <li class="card__description"><span>Servings:</span> 4</li>
+              <li class="card__description"><span>Yield:</span> 4 servings</li>
+            </ul>
+          </div>
+          <a href="./recipes/chicken.html">Click for recipe</a>
+        </article>
+
+        <article class="card">
+          <h2 class="main__article-title">
+            Slow Cooker French Onion Pork Chops
+          </h2>
+
+          <div class="card__content">
+            <img
+              class="card__image"
+              src="./img/porkchop.jpeg"
+              alt="Chicken Thighs with lemon, Yogurt and Dill"
+            />
+            <ul>
+              <li class="card__description"><span>Prep:</span> 10 mins</li>
+              <li class="card__description">
+                <span>Cook:</span> 8 hrs 15 mins
+              </li>
+              <li class="card__description">
+                <span>Total:</span> 8 hrs 25 mins
+              </li>
+              <li class="card__description"><span>Servings:</span> 5</li>
+              <li class="card__description"><span>Yield:</span> 5 servings</li>
+            </ul>
+          </div>
+          <a href="./recipes/porchop.html">Click for recipe</a>
         </article>
       </section>
     </main>
+  </body>
 </html>
